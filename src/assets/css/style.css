@@ -1,0 +1,34 @@
+html, body {
+  background-color: rgb(240,255,240) !important;
+  color: #2a2a2a !important;
+}
+
+.bg-dark-gray {
+  background-color: rgba(5, 5, 5, 1);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+.deepshadow {
+  color: #e0dfdc;
+  letter-spacing: .1em;
+  text-shadow: 0 -1px 0 #fff,
+  0 1px 0 #2e2e2e,
+  0 2px 0 #2c2c2c,
+  0 3px 0 #2a2a2a,
+  0 4px 0 #282828,
+  0 5px 0 #262626,
+  0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.div-img {
+  background-size: 100%;
+  background: #fff url(~/assets/images/osman-rana-HOtPD7Z_74s-unsplash.jpg) no-repeat left top;
+}
