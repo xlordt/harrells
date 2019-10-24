@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row justify-content-center div-img">
+    <div class="col-md-12 my-5 py-5 text-center">
+        <h1 class="deepshadow">Daily Forecast!</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 py-2 bg-dark-gray">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="row justify-content-center">
+            <div class="col-md-6" [formGroup]="myForm">
+              <label for="postalCode" class="col-form-label text-info"></label>
+              <input type="text" formControlName="searchInput" class="form-control" id="postalCode" placeholder="Search by Zip" required="true">
+            </div>
+            <div class="col-md-4 py-4 text-center">
+              <button class="btn btn-danger btn-block" [disabled]="myForm.invalid" (click)="postalCodeSearch()">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 col-sm-6 my-4" *ngIf="accuData">
+      <ngx-json-viewer [json]="accuData" [expanded]="false"></ngx-json-viewer>
+    </div>
+  </div>
+</div>
