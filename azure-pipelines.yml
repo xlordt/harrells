@@ -22,5 +22,5 @@ steps:
   displayName: 'npm install and build'
 
 - script:
-    ng test --karmaConfig src/karma.conf.ci.js
+    ng test --karmaConfig src/karma.cli.conf.js
   displayName: 'ng test --karmaConfig src/karma.cli.conf.js'
