@@ -22,8 +22,8 @@ steps:
   displayName: 'npm install and build'
 
 - script:
-    npx ng test --watch=false
-  displayName: 'ng test --watch=false'
+    ng test --watch=false
+  displayName: 'npx ng test --watch=false'
 
 #- script:
 #    ng test --karmaConfig src/karma.conf.js
