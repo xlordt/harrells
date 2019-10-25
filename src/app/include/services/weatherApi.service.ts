@@ -12,7 +12,7 @@ export class WeatherApiService {
 
   // Weather service apikey - key will be removed, please use with your own.
   private apiKey = 'eumva2hriurffm6T9U3ivQVxKtJhp8ep';
-
+    
   // @param httpClient
   constructor(private httpClient: HttpClient) {
   }

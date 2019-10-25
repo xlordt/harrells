@@ -16,8 +16,7 @@ export class HomeComponent implements OnInit {
   // Reactive form group.
   public myForm: FormGroup;
 
-  constructor(private accuApi: WeatherApiService, private fb: FormBuilder) {
-  }
+  constructor(private accuApi: WeatherApiService, private fb: FormBuilder) {}
 
   ngOnInit() {
     this.myForm = this.fb.group({
