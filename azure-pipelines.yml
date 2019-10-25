@@ -20,3 +20,7 @@ steps:
     npm install
     ng build --prod
   displayName: 'npm install and build'
+
+- script:
+    ng test --karmaConfig karma.conf.ci.js
+  displayName: 'ng test --karmaConfig karma.conf.ci.js'
