@@ -26,5 +26,5 @@ steps:
   displayName: 'ng test --watch=false'
 
 #- script:
-#    ng test --karmaConfig src/karma.cli.conf.js
+#    ng test --karmaConfig src/karma.conf.js
 #  displayName: 'ng test --karmaConfig src/karma.cli.conf.js'
